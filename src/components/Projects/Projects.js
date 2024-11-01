@@ -6,7 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import weatherApp from "../../Assets/Projects/weatherApp.png";
 import controlGym from "../../Assets/Projects/controlGym.png";
 import nacion from "../../Assets/Projects/nacion.png";
 
@@ -42,7 +42,16 @@ function Projects() {
               demoLink="https://control-gym.vercel.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weatherApp}
+              isBlog={false}
+              title="WeatherApp"
+              description="I developed a single-page weather application that displays key climate data for three locations simultaneously. The app is built with React and styled using Tailwind CSS for responsive design. Animations are powered by Framer Motion for a smooth user experience, and React Icons are used to visually enhance weather data. Vite and ESLint streamline development, ensuring fast performance and clean code.."
+              ghLink="https://github.com/WalRoldan/weatherApp"
+              demoLink="https://weather-app-eight-zeta-67.vercel.app/"
+            />
+          </Col>
           {/*  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -65,16 +74,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
