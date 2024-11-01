@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import controlGym from "../../Assets/Projects/controlGym.png";
 import nacion from "../../Assets/Projects/nacion.png";
 
 function Projects() {
@@ -27,24 +27,23 @@ function Projects() {
               imgPath={nacion}
               isBlog={false}
               title="La Nacion"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink=""
+              description="I developed a replica of the La Nación website as part of a technical challenge, using React for the UI construction and React Router DOM to manage navigation. I integrated FontAwesome for icons and used Bootstrap along with Tailwind CSS for a responsive design. HTTP requests were handled with React-Axios, and I optimized the project through React Scripts from Create React App. I implemented tests with Jest and React Testing Library to ensure functionality and used TypeScript for clean, well-structured code, measured and optimized."
+              ghLink="https://github.com/WalRol/acumulado2"
               demoLink="https://acumulado2-vlhv.vercel.app/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={controlGym}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Control-Gym"
+              description="I developed a gym management app for client check-ins and user administration. Built with React and React Router DOM for dynamic navigation, the app uses Tailwind CSS and Bootstrap for responsive design, and Axios for secure data handling. React Query synchronizes client data, with form validation by React Hook Form and Yup. TypeScript and Jest ensure quality code and reliable functionality, with Vite and ESLint streamlining development."
+              demoLink="https://control-gym.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/*  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
